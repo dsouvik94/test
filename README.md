@@ -1,3 +1,5 @@
-# Hi All,
+class Users(Resource):
+    # methods go here
+    pass
 
-I am trying to learn how to ode on Github
+api.add_resource(Users, '/users')  # '/users' is our entry point
